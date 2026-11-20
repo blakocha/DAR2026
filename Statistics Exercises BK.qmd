@@ -5,9 +5,21 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Statistical inference
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+There are **two main topics** in *statistical inference*:
+
+* Confidence intervals, 
+* Hypothesis testing. 
+
+### Confidence intervals
+
+Examples:
+
+### Hypothesis testing
+
+Examples:
+
 
 ## Running Code
 
