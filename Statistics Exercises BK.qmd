@@ -26,6 +26,7 @@ Examples:
 ### Plot test
 
 ```{r}
+#| echo: false
 library(ggplot2)
 ggplot(mtcars, aes(x=qsec))+geom_histogram()
 
