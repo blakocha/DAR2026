@@ -2,6 +2,7 @@
 title: "Statistics Excercises"
 author: "Blazej Kochanski"
 format: html
+toc: true
 editor: visual
 ---
 
