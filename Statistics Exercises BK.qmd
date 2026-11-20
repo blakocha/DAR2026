@@ -17,6 +17,10 @@ You can read about them [in the script by Dr B](https://blazejkochanski-statisti
 
 ### Confidence intervals
 
+A __confidence interval__ is a range of values used to estimate an unknown population parameter. It is constructed in such a way that, under appropriate conditions, there is a specified probability -- called the __confidence level__ -- that the interval calculated based on a random sample will contain the true parameter value.
+
+The confidence level is typically expressed as a percentage. Typical confidence levels: 90%, 95%, 99%. 
+
 Examples:
 
 ### Hypothesis testing
@@ -24,6 +28,8 @@ Examples:
 Examples:
 
 $$ H_0: p = 0.5 $$
+
+## Quarto tests
 
 ### Plot test
 
