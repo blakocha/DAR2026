@@ -98,7 +98,15 @@ Confidence intervals for the guess of the share of African countries in the UN w
 
 (https://docs.google.com/spreadsheets/d/1nVKM8U8jB3T3zUHD0wix2cm4v4ygHfjRw9lrPZJED0o/edit?usp=sharing)
 
+```{r}
+ID = "1nVKM8U8jB3T3zUHD0wix2cm4v4ygHfjRw9lrPZJED0o"
+sheet = "white" 
+library(googlesheets4)
+gs4_deauth()
+data <- read_sheet(ID, sheet)
 
+
+```
 
 ### Hypothesis testing
 
