@@ -92,6 +92,14 @@ print(test_result$conf.int)
 
 ```
 
+Example 4:
+
+Confidence intervals for the guess of the share of African countries in the UN with low and high "Anchor". 
+
+(https://docs.google.com/spreadsheets/d/1nVKM8U8jB3T3zUHD0wix2cm4v4ygHfjRw9lrPZJED0o/edit?usp=sharing)
+
+
+
 ### Hypothesis testing
 
 Examples:
