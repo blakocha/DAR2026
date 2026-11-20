@@ -59,6 +59,16 @@ for the trip to the university,
 
 for the return trip from the university.
 
+```{r}
+URL = "https://docs.google.com/spreadsheets/d/1MvyoGcPtW3hUa4iARd2RLM6ahfMBFBYqfzet3K9_6do/edit?gid=1150951672#gid=1150951672"
+library(googlesheets4)
+gs4_deauth()
+data <- read_sheet(URL)
+time_total <- as.numeric(data$czas)
+hist(time_total)
+
+```
+
 ### Hypothesis testing
 
 Examples:
