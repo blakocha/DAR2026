@@ -110,6 +110,17 @@ data <- read_sheet(ID, sheet)
 boxplot(data$Africa_Estimate~data$Africa_Anchor_High, horizontal = TRUE)
 ```
 
+```{r}
+anchor_low <- data$Africa_Estimate[data$Africa_Anchor_High==0]
+
+anchor_high <- data$Africa_Estimate[data$Africa_Anchor_High==1]
+print("The CI for the mean when the anchor is low")
+t.test(anchor_low)$conf.int
+print("The CI for the mean when the anchor is high")
+t.test(anchor_high)$conf.int
+
+```
+
 ### Hypothesis testing
 
 Examples:
