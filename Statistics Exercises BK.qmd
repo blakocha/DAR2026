@@ -28,6 +28,7 @@ Examples:
 ```{r}
 #| echo: false
 #| warning: false
+#| fig-cap: Histogram of qsec
 library(ggplot2)
 ggplot(mtcars, aes(x=qsec))+geom_histogram()
 
