@@ -55,9 +55,10 @@ Determine the 99-percent confidence intervals for the average travel time of dr.
 
 for any trip,
 
-for the trip to the university,
+for the trip to the university (kierunek=="naPG") ,
 
-for the return trip from the university.
+for the return trip from the university
+(kierunek=="zPG").
 
 ```{r}
 URL = "https://docs.google.com/spreadsheets/d/1MvyoGcPtW3hUa4iARd2RLM6ahfMBFBYqfzet3K9_6do/edit?gid=1150951672#gid=1150951672"
