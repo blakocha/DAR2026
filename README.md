@@ -5,3 +5,6 @@
 1. In your Rstudio New File > Quarto Document
 2. Choose title, for example Statistics Excercises, you can type in the Author, choose HTML as a format, click Create.
 3. Save the .qmd file. 
+
+Survey / Experiment:
+[https://Labsee.com/lab/4570/DIwV8bqI3nbzg9eZ]
