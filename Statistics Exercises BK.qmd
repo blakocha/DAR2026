@@ -47,6 +47,18 @@ Randomly select 100 locations on Earth, checking whether you land on water or la
 Input your results here:
 [https://docs.google.com/spreadsheets/d/1TCaPAH1D51l5j0A4WauehP22m8zyww7n8eLQcjGBpEw/edit?usp=sharing]
 
+Example 3:
+
+Determine the 99-percent confidence intervals for the average travel time of dr. B by bicycle on the route between the university and home based on sample data. 
+
+(https://docs.google.com/spreadsheets/d/1MvyoGcPtW3hUa4iARd2RLM6ahfMBFBYqfzet3K9_6do/edit?gid=1150951672#gid=1150951672)
+
+for any trip,
+
+for the trip to the university,
+
+for the return trip from the university.
+
 ### Hypothesis testing
 
 Examples:
