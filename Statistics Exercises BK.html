@@ -171,6 +171,7 @@ window.Quarto = {
 <p>The confidence level is typically expressed as a percentage. Typical confidence levels: 90%, 95%, 99%.</p>
 <p>Examples:</p>
 <p>A producer of a medicinal skin cream is interested in the proportion of people of a certain age for whom the cream will improve their skin condition. In a random sample of 68 people, a positive effect was observed in 42 cases. What proportion of people can be expected to see an improvement with this cream, with 99% confidence, in the population?</p>
+<p>I am using the binom package, method=“asymptotic” to match the simple statistics textbook formula.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("binom")</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>binom<span class="sc">::</span><span class="fu">binom.confint</span>(<span class="dv">42</span>, <span class="dv">68</span>, </span>
@@ -181,6 +182,10 @@ window.Quarto = {
 1 asymptotic 42 68 0.6176471 0.4658494 0.7694447</code></pre>
 </div>
 </div>
+<p>Conclusion:</p>
+<p>Example 2:</p>
+<p>Randomly select 100 locations on Earth, checking whether you land on water or land. Based on this, estimate the proportion of land on Earth’s surface. Assume a 90% confidence interval.</p>
+<p><a href="https://bankonomia.nazwa.pl/globe/">Sampling tool</a></p>
 </section>
 <section id="hypothesis-testing" class="level3">
 <h3 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis testing</h3>
