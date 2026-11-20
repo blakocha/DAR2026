@@ -241,6 +241,26 @@ attr(,"conf.level")
 [1] 0.99</code></pre>
 </div>
 </div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>to_the_university <span class="ot">&lt;-</span> time_total[data<span class="sc">$</span>kierunek<span class="sc">==</span><span class="st">"naPG"</span>]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>test_result<span class="ot">&lt;-</span><span class="fu">t.test</span>(to_the_university, <span class="at">conf.level =</span> <span class="fl">0.99</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(test_result<span class="sc">$</span>conf.int)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 53.65678 56.86091
+attr(,"conf.level")
+[1] 0.99</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>from_the_university <span class="ot">&lt;-</span> time_total[data<span class="sc">$</span>kierunek<span class="sc">==</span><span class="st">"zPG"</span>]</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>test_result<span class="ot">&lt;-</span><span class="fu">t.test</span>(from_the_university, <span class="at">conf.level =</span> <span class="fl">0.99</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(test_result<span class="sc">$</span>conf.int)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 61.09951 64.93307
+attr(,"conf.level")
+[1] 0.99</code></pre>
+</div>
+</div>
 </section>
 <section id="hypothesis-testing" class="level3">
 <h3 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis testing</h3>
@@ -256,7 +276,7 @@ attr(,"conf.level")
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Statistics-Exercises-BK_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="Statistics-Exercises-BK_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>Histogram of qsec</figcaption>
 </figure>
 </div>

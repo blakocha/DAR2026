@@ -78,7 +78,19 @@ length(time_total)
 test_result<-t.test(time_total, conf.level = 0.99)
 print(test_result$conf.int)
 ```
+```{r}
+to_the_university <- time_total[data$kierunek=="naPG"]
+test_result<-t.test(to_the_university, conf.level = 0.99)
+print(test_result$conf.int)
 
+```
+
+```{r}
+from_the_university <- time_total[data$kierunek=="zPG"]
+test_result<-t.test(from_the_university, conf.level = 0.99)
+print(test_result$conf.int)
+
+```
 
 ### Hypothesis testing
 
