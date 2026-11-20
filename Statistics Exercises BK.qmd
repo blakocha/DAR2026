@@ -35,3 +35,7 @@ library(ggplot2)
 ggplot(mtcars, aes(x=qsec))+geom_histogram()
 
 ```
+
+### LaTeX formatting test
+
+$$ \sigma_X = \sqrt{\frac{\sum_{i=1}^n (x-\mu)^2}{n}}$$
