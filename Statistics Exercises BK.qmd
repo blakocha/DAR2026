@@ -1,5 +1,5 @@
 ---
-title: "Statistics Excercises"
+title: "Statistics Exercises"
 author: "Blazej Kochanski"
 format: html
 toc: true
