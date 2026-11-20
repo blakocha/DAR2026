@@ -104,8 +104,10 @@ sheet = "white"
 library(googlesheets4)
 gs4_deauth()
 data <- read_sheet(ID, sheet)
+```
 
-
+```{r}
+boxplot(data$Africa_Estimate~data$Africa_Anchor_High, horizontal = TRUE)
 ```
 
 ### Hypothesis testing
