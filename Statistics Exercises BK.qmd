@@ -66,9 +66,12 @@ gs4_deauth()
 data <- read_sheet(URL)
 time_total <- as.numeric(data$czas)
 hist(time_total)
-
 ```
-
+```{r}
+mean(time_total)
+sd(time_total)
+length(time_total)
+```
 ### Hypothesis testing
 
 Examples:
