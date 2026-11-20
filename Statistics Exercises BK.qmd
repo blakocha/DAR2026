@@ -72,6 +72,13 @@ mean(time_total)
 sd(time_total)
 length(time_total)
 ```
+
+```{r}
+test_result<-t.test(time_total, conf.level = 0.99)
+print(test_result$conf.int)
+```
+
+
 ### Hypothesis testing
 
 Examples:
