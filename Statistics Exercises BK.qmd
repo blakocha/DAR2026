@@ -23,6 +23,8 @@ Examples:
 
 Examples:
 
+$$ H_0: p = 0.5 $$
+
 ### Plot test
 
 ```{r}
