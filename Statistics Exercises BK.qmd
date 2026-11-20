@@ -44,7 +44,8 @@ Randomly select 100 locations on Earth, checking whether you land on water or la
 
 [Sampling tool](https://bankonomia.nazwa.pl/globe/)
 
-
+Input your results here:
+[https://docs.google.com/spreadsheets/d/1TCaPAH1D51l5j0A4WauehP22m8zyww7n8eLQcjGBpEw/edit?usp=sharing]
 
 ### Hypothesis testing
 
